@@ -1,4 +1,4 @@
-package com.wewe.azurepoc.accessingdatajpa.entity;
+package com.wewe.accessingdatamysql.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,6 +1,6 @@
-package com.wewe.azurepoc.accessingdatajpa.repository;
+package com.wewe.accessingdatamysql.repository;
 
-import com.wewe.azurepoc.accessingdatajpa.entity.Employee;
+import com.wewe.accessingdatamysql.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

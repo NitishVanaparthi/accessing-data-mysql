@@ -1,11 +1,10 @@
-package com.wewe.azurepoc.accessingdatajpa.repository;
+package com.wewe.accessingdatamysql.repository;
 
-import com.wewe.azurepoc.accessingdatajpa.entity.Employee;
+import com.wewe.accessingdatamysql.entity.Employee;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Optional;
 
 @Repository
 public interface EmployeeRepository extends CrudRepository<Employee, Long>{

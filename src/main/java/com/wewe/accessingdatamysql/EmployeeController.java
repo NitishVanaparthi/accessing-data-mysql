@@ -1,7 +1,7 @@
-package com.wewe.azurepoc.accessingdatajpa;
+package com.wewe.accessingdatamysql;
 
-import com.wewe.azurepoc.accessingdatajpa.entity.Employee;
-import com.wewe.azurepoc.accessingdatajpa.repository.EmployeeRepository;
+import com.wewe.accessingdatamysql.entity.Employee;
+import com.wewe.accessingdatamysql.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
